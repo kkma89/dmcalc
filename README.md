@@ -14,7 +14,7 @@ DMCalc
 
 `dmcalc.py -E ephemeris.par -M model.sm data.fits`
 
-where, `ephemeris.par` is the ephemeris file of the pulsar, `model.sm` is the template file and `data.fits` is the data file. Additionally, there are other options that can be useful for further analysis. This also produces an plot of the DM corrected data and different stages of the fitting as shown below.
+where, `ephemeris.par` is the ephemeris file of the pulsar, `model.sm` is the template file and `data.fits` is the data file. Additionally, there are other options that can be useful for further analysis. This also produces a plot of the DM corrected data and different stages of the fitting as shown below.
 
 
 [psrfits]: https://www.atnf.csiro.au/research/pulsar/psrfits_definition/Psrfits.html
