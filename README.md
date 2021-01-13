@@ -10,13 +10,16 @@ DMCalc
 
 ## Usage
 
-Minimum running example:
+* Minimum running example:
+
 `dmcalc.py -E ephemeris.par -M model.sm data.fits`
-where, `ephemeris.par` is the ephemeris file of the pulsar, `model.sm` is the template file and `data.fits` is the 
+
+where, `ephemeris.par` is the ephemeris file of the pulsar, `model.sm` is the template file and `data.fits` is the data file. Additionally, there are other options that can be useful for further analysis. This also produces an plot of the DM corrected data and different stages of the fitting as shown below.
+
 
 [psrfits]: https://www.atnf.csiro.au/research/pulsar/psrfits_definition/Psrfits.html
 [psrchive]: http://psrchive.sourceforge.net/
 [tempo2]: https://bitbucket.org/psrsoft/tempo2/src/master/
 [tiburzi2019]: https://ui.adsabs.harvard.edu/abs/2019MNRAS.487..394T/abstract
 [sklearn]: https://scikit-learn.org/stable/index.html
-[kkma_dmcalc]: 
+[kkma_dmcalc]: www.arxiv.org/
