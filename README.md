@@ -1,7 +1,7 @@
 DMCalc
 ======
 
-`DMCalc` is a code is a Python based script that estimates the Dispersion Measure (DM) of wide-band pulsar data in [psrfits][psrfits] format. It uses the tools available with [PSRCHIVE][psrchive] python interface to get ToAs and then use [TEMPO2][tempo2] for DM fitting. A median absolute deviation (MAD) based ToA rejection algorithm following [Tiburzi et al. (2019)][tiburzi2019] is also implemented in the code to remove large outlier ToAs after performing a ![equation](https://latex.codecogs.com/gif.latex?%5Cmathrm%7B%5Cnu%7D%5E%7B-2%7D) fit using Huber Regression. Although the code is used for the analysis of the wide-band data from uGMRT, it can in principle be used for any pulsar datasets. More details about this and the results obtained using this can be seen in [Krishnakumar et al. (2020)][kkma_dmcalc].
+`DMCalc` is a Python based script that estimates the Dispersion Measure (DM) of wide-band pulsar data in [psrfits][psrfits] format. It uses the tools available with [PSRCHIVE][psrchive] python interface to get ToAs and then use [TEMPO2][tempo2] for DM fitting. A median absolute deviation (MAD) based ToA rejection algorithm following [Tiburzi et al. (2019)][tiburzi2019] is also implemented in the code to remove large outlier ToAs after performing a ![equation](https://latex.codecogs.com/gif.latex?%5Cmathrm%7B%5Cnu%7D%5E%7B-2%7D) fit using Huber Regression. Although the code is used for the analysis of the wide-band data from uGMRT, it can in principle be used for any pulsar datasets. More details about this and the results obtained using this can be seen in [Krishnakumar et al. (2020)][kkma_dmcalc].
 
 ## Dependencies
 * [PSRCHIVE][psrchive]: Installed with python interface
