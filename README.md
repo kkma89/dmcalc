@@ -23,4 +23,4 @@ where, `ephemeris.par` is the ephemeris file of the pulsar, `model.sm` is the te
 [tempo2]: https://bitbucket.org/psrsoft/tempo2/src/master/
 [tiburzi2019]: https://ui.adsabs.harvard.edu/abs/2019MNRAS.487..394T/abstract
 [sklearn]: https://scikit-learn.org/stable/index.html
-[kkma_dmcalc]: www.arxiv.org/
+[kkma_dmcalc]: https://arxiv.org/abs/2101.05334
